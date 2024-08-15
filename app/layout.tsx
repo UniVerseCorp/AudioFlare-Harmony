@@ -4,12 +4,13 @@ import { Inter } from 'next/font/google';
 import Footer from '../components/footer';
 import { Toaster } from 'react-hot-toast';
 import Header from '../components/header';
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ['latin'] });
 
-const APP_NAME = 'Audioflare';
+const APP_NAME = 'UniVerse Audioflare Harmony';
 const APP_DESCRIPTION = 'Transcribe, Analyze, Translate: All in One Cloudflare Playground';
-const APP_URL = process.env.NODE_ENV === 'production' ? 'https://audioflare.seanoliver.dev' : 'http://localhost:3000';
+const APP_URL = process.env.NODE_ENV === 'production' ? 'https://audioflare-harmony.vercel.app' : 'http://localhost:3000';
 
 export const metadata: Metadata = {
 	title: APP_NAME,
