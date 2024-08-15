@@ -1,10 +1,10 @@
 <a name="readme-top"></a>
 <div align="center">
-  <a href="https://github.com/seanoliver/audioflare">
+  <a href="https://github.com/UniVerseCorp/AudioFlare-Harmony">
     <img src="public/images/audioflare-header.png" alt="Audioflare Logo">
   </a>
 
-  <h1 align="center">Audioflare</h1>
+  <h1 align="center">Audioflare Harmony</h1>
 
   <p align="center">
     An all-in-one AI audio playground using Cloudflare AI Workers to transcribe, analyze, summarize, and translate any audio file.
@@ -12,20 +12,20 @@
     <br />
     <a href="https://audioflare.seanoliver.dev/" target="_blank">View Demo</a>
     ·
-    <a href="https://github.com/seanoliver/audioflare/issues">Report Bug</a>
+    <a href="https://github.com/UniVerseCorp/AudioFlare-Harmony/issues">Report Bug</a>
     ·
-    <a href="https://github.com/seanoliver/audioflare/issues">Request Feature</a>
+    <a href="https://github.com/UniVerseCorp/AudioFlare-Harmony/issues">Request Feature</a>
   </p>
 </div>
 <div align="center">
 
-![Top Languages](https://img.shields.io/github/languages/top/seanoliver/audioflare)
-![GitHub repo size](https://img.shields.io/github/repo-size/seanoliver/audioflare)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/seanoliver/audioflare)
-![GitHub contributors](https://img.shields.io/github/contributors/seanoliver/audioflare)
-![GitHub last commit](https://img.shields.io/github/last-commit/seanoliver/audioflare)
-![GitHub issues](https://img.shields.io/github/issues/seanoliver/audioflare)
-![GitHub](https://img.shields.io/github/license/seanoliver/audioflare)
+![Top Languages](https://img.shields.io/github/languages/top/UniVerseCorp/AudioFlare-Harmony)
+![GitHub repo size](https://img.shields.io/github/repo-size/UniVerseCorp/AudioFlare-Harmony)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/UniVerseCorp/AudioFlare-Harmony)
+![GitHub contributors](https://img.shields.io/github/contributors/UniVerseCorp/AudioFlare-Harmony)
+![GitHub last commit](https://img.shields.io/github/last-commit/UniVerseCorp/AudioFlare-Harmony)
+![GitHub issues](https://img.shields.io/github/issues/UniVerseCorp/AudioFlare-Harmony)
+![GitHub](https://img.shields.io/github/license/UniVerseCorp/AudioFlare-Harmony)
 
 </div>
 
@@ -55,7 +55,7 @@
 
 ## About This Project
 
-Audioflare emerged from my side project endeavors at [Smol AI](https://smol.ai), specifically aimed at exploring the capabilities of [Cloudflare AI workers](https://developers.cloudflare.com/workers-ai/). The project demonstrates a practical use case by orchestrating a series of AI workers to process an audio file of up to 30 seconds. Here’s a walkthrough of the core functionality:
+Audioflare emerged from my side project endeavours at [Smol AI](https://smol.ai), specifically aimed at exploring the capabilities of [Cloudflare AI workers](https://developers.cloudflare.com/workers-ai/). The project demonstrates a practical use case by orchestrating a series of AI workers to process an audio file of up to 30 seconds. Here’s a walkthrough of the core functionality:
 
 1. **Transcription**:
    - Initially, the audio file is transcribed using Cloudflare's Speech to Text worker, which is built on OpenAI's `whisper` API.
@@ -88,7 +88,7 @@ As Cloudflare broadens its model support, I look forward to refining Audioflare,
 ### Demo
 
 <p>
-  <img src="public/images/audioflare-demo.gif" alt="Audioflare Demo">
+  <img src="public/images/audioflare-demo.gif" alt="Audioflare Harmony Demo">
 </p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -123,14 +123,14 @@ As Cloudflare broadens its model support, I look forward to refining Audioflare,
      - **Rate Limiting**: Control application scaling by limiting the number of received requests.
 
 - **Learning and Exploration**:
-   - Audioflare serves as a template for learning and working with Cloudflare AI workers.
+   - Audioflare Harmony serves as a template for learning and working with Cloudflare AI workers.
    - Users can explore the functionality of different Cloudflare AI workers excluding the Image Classification or Text Embedding workers as they are not integrated due to their irrelevance to the audio use case.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-This project was built in 2023 using the following technologies.
+This project was built in 2024 using the following technologies.
 
 - ![React][React]
 - ![Next.js][Next.js]
@@ -140,7 +140,7 @@ This project was built in 2023 using the following technologies.
 - ![Bun][Bun]
 - ![shadcn/ui][shadcn/ui]
 
-See [package.json](https://github.com/seanoliver/audioflare/blob/main/package.json) for a full list of dependencies.
+See [package.json](https://github.com/UniVerseCorp/AudioFlare-Harmony/blob/main/package.json) for a full list of dependencies.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,7 +153,7 @@ To get a local copy up and running follow these simple steps.
 1. Clone this repository
 
    ```bash
-   git clone https://github.com/seanoliver/audioflare.git
+   git clone https://github.com/UniVerseCorp/AudioFlare-Harmony.git
    ```
 
 2. Install dependencies
@@ -187,7 +187,7 @@ To get a local copy up and running follow these simple steps.
 
 ## Contributing
 
-This is a great project for learning Cloudflare, AI Workers, and simple Next.js API Routes. Feel free to fork this repo and make it your own. If you have any questions or suggestions, please feel free to contact me!
+This is a great project for learning UniVerse, AI Workers, and simple Next.js API Routes. Feel free to fork this repo and make it your own. If you have any questions or suggestions, please feel free to contact me!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -201,7 +201,7 @@ This is a great project for learning Cloudflare, AI Workers, and simple Next.js 
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/seanoliver/audioflare/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/UniVerseCorp/AudioFlare-Harmony/LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,11 +209,11 @@ Distributed under the MIT License. See [LICENSE](https://github.com/seanoliver/a
 
 ## Contact
 
-Your Name - [@SeanOliver](https://twitter.com/SeanOliver) - helloseanoliver@gmail.com
+Your Name - Satyam Singh - [rpsatyam05@gmail.com](mailto:rpsatyam05@gmail.com)
 
-Project Link: [https://github.com/seanoliver/audioflare](https://github.com/seanoliver/audioflare)
+Project Link: [https://github.com/UniVerseCorp/AudioFlare-Harmony](https://github.com/UniVerseCorp/AudioFlare-Harmony)
 
-Live Demo: [https://audioflare.seanoliver.dev/](https://audioflare.seanoliver.dev/)
+Live Demo: 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
