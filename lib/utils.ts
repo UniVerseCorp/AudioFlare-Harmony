@@ -17,8 +17,8 @@ export const convertBytes = (bytes: number) => {
 
 export const isLongerThan30Seconds = (audio: HTMLAudioElement) => {
 	return audio.onloadedmetadata = function () {
-		if (audio.duration > 30) {
-			return true;
+		if (audio.duration > 0) {
+			return false;
 		} else {
       return false;
     }
